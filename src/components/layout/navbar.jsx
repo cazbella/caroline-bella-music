@@ -1,99 +1,40 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-import "./Navbar.css";
+import { Link } from 'react-router-dom'; // Import Link from react-router-dom
+import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
+import NavDropdown from 'react-bootstrap/NavDropdown';
+import logo from "../../assets/images/full-logo-no-background.png";
 
-
-function Navbar() {
+function CustomNavbar() {
   return (
-    <div className="container-fluid mb-4">
-      <nav className="navbar navbar-expand-lg customNav">
-        <div className="container-fluid">
-          <Link to="/">
-            <img
-              src=""
-              alt="BCSB Logo"
-              className="navbar-brand"
-          
-            />
-            <br />
-          </Link>
-          <button
-            className="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNav"
-            aria-controls="navbarNav"
-            aria-expanded="true"
-            aria-label="Toggle navigation"
-          >
-            <span className="navbar-toggler-icon"></span>
-          </button>
-          <div className="collapse navbar-collapse" id="navbarNav">
-            <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-              <li className="nav-item">
-                <Link className="nav-link active" aria-current="page" to="/">
-                  Home
-                </Link>
-              </li>
-              <li className="nav-item">
-                <Link className="nav-link active" aria-current="page" to="/gallery">
-                  Gallery
-                </Link>
-              </li>
-              <li className="nav-item">
-                <Link className="nav-link" to="/music">
-                  Music
-                </Link>
-              </li>
-              <li className="nav-item">
-                <Link className="nav-link" to="/gigs">
-                  Gigs
-                </Link>
-              </li>
-              <li className="nav-item">
-                <Link className="nav-link" to="/art">
-                  Art
-                </Link>
-              </li>
-              {/* <li className="nav-item dropdown">
-                <Link
-                  className="nav-link dropdown-toggle"
-                  to="#"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  Contact
-                </Link>
-                <ul className="dropdown-menu">
-                  <li>
-                    <a className="dropdown-item" href="mailto:cazbella@myyahoo.com">
-                      Email
-                    </a>
-                  </li>
-                  <li>
-                    <hr className="dropdown-divider" />
-                  </li>
-                  <li>
-                    <a className="dropdown-item" href="https://www.facebook.com/CarolineBellaMusic" target="_blank">
-                      Facebook
-                    </a>
-                  </li>
-                </ul>
-              </li> */}
-            </ul>
-            <ul className="navbar-nav ml-auto">
-              <li className="nav-item">
-                <Link className="btn btn-primary btn-lg nav-mail" to="mailto:bridgtownconcertshowband@gmail.com" role="button">
-                  Contact
-                </Link>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-    </div>
+    <Navbar expand="lg" className="bg-body-tertiary">
+      <Container>
+        <Navbar.Brand as={Link} to="/">
+          <img
+            src={logo}
+            alt="Caroline Bella Music Logo"
+            style={{ maxHeight: '70px', borderRadius: 0 }}
+          />
+        </Navbar.Brand>
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Collapse id="basic-navbar-nav">
+          <Nav className="mx-auto"> {/* Use mx-auto to spread out the links */}
+            <Nav.Link as={Link} to="/" className="me-5">Home</Nav.Link>
+            <Nav.Link as={Link} to="/gallery" className="me-5">Gallery</Nav.Link>
+            <Nav.Link as={Link} to="/music" className="me-5">Music</Nav.Link>
+            <Nav.Link as={Link} to="/gigs" className="me-5">Gigs</Nav.Link>
+          </Nav>
+          <Nav>
+            <NavDropdown title="Contact" id="basic-nav-dropdown">
+              <NavDropdown.Item href="mailto:cazbella@myyahoo.com">Email</NavDropdown.Item>
+              <NavDropdown.Item href="https://www.facebook.com/CarolineBellaMusic" target="_blank">Facebook</NavDropdown.Item>
+            </NavDropdown>
+          </Nav>
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
   );
 }
 
-export default Navbar;
+export default CustomNavbar;

@@ -1,4 +1,3 @@
-// App.jsx
 import React from "react";
 import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css'; // Import Bootstrap CSS
@@ -10,15 +9,12 @@ import Art from "./components/pages/Art";
 import Home from "./components/pages/Home";
 import Gigs from "./components/pages/Gigs";
 
-
-
 function App() {
   return (
     <Router>
-      <div className="flex-container">
+      <div>
+        <Navbar />
         <div className="container">
-          <Navbar />
-          {/* Routes */}
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/gallery" element={<Gallery />} />
@@ -27,8 +23,9 @@ function App() {
             <Route path="/art" element={<Art />} />
           </Routes>
         </div>
-        <Footer />
+        
       </div>
+      <Footer />
     </Router>
   );
 }
