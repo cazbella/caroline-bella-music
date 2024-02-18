@@ -13,7 +13,7 @@ function Navbar() {
               src=""
               alt="BCSB Logo"
               className="navbar-brand"
-              style=""
+          
             />
             <br />
           </Link>

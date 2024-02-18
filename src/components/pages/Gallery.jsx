@@ -1,6 +1,5 @@
 import React from 'react';
-// import Header from "../layout/Header";
-import "./Media.css";
+import "./Gallery.css";
 
 
 function Gallery() {
@@ -12,32 +11,32 @@ function Gallery() {
           <div id="carousel" className="carousel slide" data-bs-ride="carousel">
             <div className="carousel-inner">
               <div className="carousel-item active">
-                <img src= {logo} className="d-block w-100" alt="Slide 1" />
+                <img src= "" className="d-block w-100" alt="Slide 1" />
               </div>
               <div className="carousel-item">
-                <img src= {bandBit} className="d-block w-100" alt="Slide 2" />
+                <img src= "" className="d-block w-100" alt="Slide 2" />
               </div>
               <div className="carousel-item">
-                <img src= {bandBit2} className="d-block w-100" alt="Slide 2" />
+                <img src= "" className="d-block w-100" alt="Slide 2" />
               </div>
               <div className="carousel-item">
-                <img src= {flutes} className="d-block w-100" alt="Slide 3" />
+                <img src= "" className="d-block w-100" alt="Slide 3" />
               </div>
               {/* Additional pictures */}
               <div className="carousel-item">
-                <img src= {shaun} className="d-block w-100" alt="Slide 4" />
+                <img src= "" className="d-block w-100" alt="Slide 4" />
               </div>
               <div className="carousel-item">
-                <img src= {tubaChris} className="d-block w-100" alt="Slide 5" />
+                <img src= "" className="d-block w-100" alt="Slide 5" />
               </div>
               <div className="carousel-item">
-                <img src= {sax} className="d-block w-100" alt="Slide 6" />
+                <img src= "" className="d-block w-100" alt="Slide 6" />
               </div>
               <div className="carousel-item">
-                <img src= {bass} className="d-block w-100" alt="Slide 7" />
+                <img src="" className="d-block w-100" alt="Slide 7" />
               </div>
               <div className="carousel-item">
-                <img src= {flutes2} 
+                <img src= ""
                 className="d-block w-100" alt="Slide 8" />
               </div>
               {/* Video slides */}
