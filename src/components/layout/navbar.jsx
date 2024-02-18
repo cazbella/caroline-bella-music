@@ -4,7 +4,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
-import logo from "../../assets/images/full-logo-no-background.png";
+import logo from "../../assets/images/logos-large/3.png";
 
 function CustomNavbar() {
   return (
@@ -14,7 +14,7 @@ function CustomNavbar() {
           <img
             src={logo}
             alt="Caroline Bella Music Logo"
-            style={{ maxHeight: '70px', borderRadius: 0 }}
+            style={{ maxHeight: '70px', maxWidth: '100px', borderRadius: 0 }}
           />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
