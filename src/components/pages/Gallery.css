@@ -1,0 +1,31 @@
+.projects-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;;
+  }
+  
+  .carousel-inner {
+    border-radius: 10px;
+    width: 50%;
+    max-width: 100%; /* Set max-width to 100% to prevent overflow */
+    overflow: hidden; /* Add overflow to prevent images from overflowing */
+    text-align: center; /* Center images horizontally */
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  @media (max-width: 768px) {
+    .carousel-item video {
+      width: 100%; /* Adjust as needed */
+      height: auto; /* Adjust as needed */
+    }
+  }
+  
+  
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    filter: invert(100%);
+  }
+  
