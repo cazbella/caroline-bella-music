@@ -8,6 +8,7 @@ import Music from "./components/pages/Music";
 import Art from "./components/pages/Art";
 import Home from "./components/pages/Home";
 import Gigs from "./components/pages/Gigs";
+import "./App.css"
 
 function App() {
   return (

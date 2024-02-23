@@ -1,9 +1,30 @@
 .footer {
-  position: fixed;
+
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: #f8f9fa; /* Set your desired background color */
-  padding: 20px; /* Adjust the padding as needed */
-  text-align: center; /* Align the content horizontally */
+  background-color: #f8f9fa; 
+  border-radius: 1.5rem;
+  padding: 20px; 
+  text-align: center; 
+  font-size: x-small;
+  height: 7%;
+}
+
+.copyright {
+  margin-top: -10px;
+  padding-bottom: -50px;
+}
+
+/* .footer {
+    display: block;
+} */
+
+@media (max-width: 768px) {
+  .footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+  }
 }

@@ -5,16 +5,18 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import logo from "../../assets/images/logos-large/3.png";
+import logoThin from "../../assets/images/logo-thinner.png";
+import "./Navbar.css";
 
 function CustomNavbar() {
   return (
-    <Navbar expand="lg" className="bg-body-tertiary">
+    <Navbar expand="lg" className="bg-body-tertiary navbar">
       <Container>
         <Navbar.Brand as={Link} to="/">
           <img
-            src={logo}
+            src={logoThin}
             alt="Caroline Bella Music Logo"
-            style={{ maxHeight: '70px', maxWidth: '100px', borderRadius: 0 }}
+            style={{ maxHeight: '', maxWidth: '300px', borderRadius: 0, marginTop: '10px', marginBottom: '10px'}}
           />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />

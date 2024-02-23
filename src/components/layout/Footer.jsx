@@ -35,7 +35,7 @@ function Footer() {
             <FontAwesomeIcon icon={faEnvelope} className="icon" style={iconStyle} />
           </a>
         </div>
-        <p className="text-center text-muted mb-0">© 2024 Caroline Bella Music</p>
+        <p className="text-center text-muted mb-0 copyright">© 2024 Caroline Bella Music</p>
       </Container>
     </footer>
   );
