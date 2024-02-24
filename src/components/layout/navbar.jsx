@@ -16,7 +16,7 @@ function CustomNavbar() {
           <img
             src={logoThin}
             alt="Caroline Bella Music Logo"
-            style={{ maxHeight: '', maxWidth: '300px', borderRadius: 0, marginTop: '10px', marginBottom: '10px'}}
+            style={{ maxHeight: '', maxWidth: '270px', borderRadius: 0, marginTop: '10px', marginBottom: '10px'}}
           />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
