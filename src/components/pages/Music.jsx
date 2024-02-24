@@ -4,7 +4,7 @@ function Music() {
   return (
     <div style={{ height: "400px", overflowY: "scroll" , marginTop: '10px'}}>
       {/* Embed SoundCloud Profile */}
-      <iframe
+      <iframe className="player"
         title="SoundCloud Profile"
         width="100%"
         height="1000"

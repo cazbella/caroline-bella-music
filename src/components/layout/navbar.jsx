@@ -21,7 +21,7 @@ function CustomNavbar() {
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="mx-auto"> {/* Use mx-auto to spread out the links */}
+          <Nav className="mx-auto nav-links"> {/* Use mx-auto to spread out the links */}
             <Nav.Link as={Link} to="/" className="me-5">Home</Nav.Link>
             <Nav.Link as={Link} to="/gallery" className="me-5">Gallery</Nav.Link>
             <Nav.Link as={Link} to="/music" className="me-5">Music</Nav.Link>
@@ -29,8 +29,8 @@ function CustomNavbar() {
           </Nav>
           <Nav>
             <NavDropdown title="Contact" id="basic-nav-dropdown">
-              <NavDropdown.Item href="mailto:cazbella@myyahoo.com">Email</NavDropdown.Item>
-              <NavDropdown.Item href="https://www.facebook.com/CarolineBellaMusic" target="_blank">Facebook</NavDropdown.Item>
+              <NavDropdown.Item id="basic-nav-dropdown" href="mailto:cazbella@myyahoo.com">Email</NavDropdown.Item>
+              <NavDropdown.Item id="basic-nav-dropdown" href="https://www.facebook.com/CarolineBellaMusic" target="_blank">Facebook</NavDropdown.Item>
             </NavDropdown>
           </Nav>
         </Navbar.Collapse>
