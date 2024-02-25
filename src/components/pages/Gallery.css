@@ -16,13 +16,13 @@
     margin-right: auto;
   }
 
-  @media (max-width: 768px) {
-    .carousel-item video {
-      width: 100%; /* Adjust as needed */
-      height: auto; /* Adjust as needed */
+  @media (min-width: 768px) {
+    .carousel-inner {
+  margin-bottom: 10vh;
+  margin-top: 10vh;
+   
     }
   }
-  
   
   .carousel-control-prev-icon,
   .carousel-control-next-icon {

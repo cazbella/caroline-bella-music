@@ -2,6 +2,7 @@ import React from "react";
 import homeImage from "../../assets/images/Caroline-Bella/beach.jpeg";
 import "./Home.css";
 
+
 function Home() {
   return (
     <div>

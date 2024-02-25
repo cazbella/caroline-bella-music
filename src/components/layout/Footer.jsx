@@ -5,6 +5,7 @@ import { faFacebook, faInstagram, faSpotify, faAmazon, faSoundcloud, faXTwitter 
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import "./Footer.css";
 
+
 function Footer() {
   const iconStyle = {
     fontSize: '2rem',

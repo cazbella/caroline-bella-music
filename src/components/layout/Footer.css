@@ -1,5 +1,6 @@
 .footer {
 
+  position: relative;
   left: 0;
   bottom: 0;
   width: 100%;
@@ -8,7 +9,8 @@
   padding: 20px; 
   text-align: center; 
   font-size: x-small;
-  height: 7%;
+  height: 13%;
+
 }
 
 .copyright {
@@ -16,9 +18,6 @@
   padding-bottom: -50px;
 }
 
-/* .footer {
-    display: block;
-} */
 
 @media (max-width: 768px) {
   .footer {
@@ -26,5 +25,35 @@
     bottom: 0;
     left: 0;
     width: 100%;
+ 
   }
+}
+
+
+@media (min-width: 768px) {
+  .footer {
+    position: ab;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+  }
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap; /* Prevent content from wrapping */
+  min-height: 100vh;
+}
+
+header {
+  height: 100px;
+}
+
+content {
+  flex-grow: 1; /* Allow content to grow and take up remaining space */
+}
+
+footer {
+  height: 100px;
 }

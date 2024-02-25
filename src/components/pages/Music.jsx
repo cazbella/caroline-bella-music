@@ -2,7 +2,7 @@ import React from "react";
 
 function Music() {
   return (
-    <div style={{ height: "400px", overflowY: "scroll" , marginTop: '10px'}}>
+    <div style={{ height: "100%", overflowY: "scroll" , marginTop: '10px'}}>
       {/* Embed SoundCloud Profile */}
       <iframe className="player"
         title="SoundCloud Profile"
