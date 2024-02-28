@@ -6,7 +6,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import logo from "../../assets/images/logos-large/3.png";
 import logoThin from "../../assets/images/logo-thinner.png";
-import "./Navbar.css";
+import "./navbar.css";
 
 function CustomNavbar() {
   return (
