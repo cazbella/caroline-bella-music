@@ -1,7 +1,7 @@
 import React from "react";
 import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css'; // Import Bootstrap CSS
-import Navbar from "./components/layout/Navbar";
+import Navbar from "./components/layout/navbar";
 import Footer from "./components/layout/Footer";
 import Gallery from "./components/pages/Gallery";
 import Music from "./components/pages/Music";
