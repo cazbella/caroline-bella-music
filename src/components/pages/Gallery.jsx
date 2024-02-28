@@ -1,7 +1,6 @@
 import React from 'react';
 import "./Gallery.css";
 import photo1 from "../../assets/images/Caroline-Bella/1.jpeg";
-import photo2 from "../../assets/images/Caroline-Bella/2.jpeg";
 import photo3 from "../../assets/images/Caroline-Bella/3.jpeg";
 import photo4 from "../../assets/images/Caroline-Bella/4.jpeg";
 import photo5 from "../../assets/images/Caroline-Bella/5.jpeg";
@@ -22,11 +21,9 @@ import photo19 from "../../assets/images/Caroline-Bella/19.jpeg";
 import photo20 from "../../assets/images/Caroline-Bella/20.jpeg";
 import photo21 from "../../assets/images/Caroline-Bella/21.jpeg";
 import photo22 from "../../assets/images/Caroline-Bella/22.jpeg";
-import photo23 from "../../assets/images/Caroline-Bella/23.jpeg";
 import photo24 from "../../assets/images/Caroline-Bella/24.jpeg";
 import photo25 from "../../assets/images/Caroline-Bella/25.jpeg";
 import photo26 from "../../assets/images/Caroline-Bella/26.jpeg";
-import photo27 from "../../assets/images/Caroline-Bella/27.jpeg";
 import photo28 from "../../assets/images/Caroline-Bella/28.jpeg";
 import photo29 from "../../assets/images/Caroline-Bella/29.jpeg";
 import photo30 from "../../assets/images/Caroline-Bella/30.jpeg";
@@ -36,7 +33,6 @@ import photo33 from "../../assets/images/Caroline-Bella/33.jpeg";
 import photo34 from "../../assets/images/Caroline-Bella/34.jpeg";
 import photo35 from "../../assets/images/Caroline-Bella/35.jpeg";
 import photo36 from "../../assets/images/Caroline-Bella/36.jpeg";
-import photo37 from "../../assets/images/Caroline-Bella/37.jpeg";
 import photo38 from "../../assets/images/Caroline-Bella/38.jpeg";
 import photo39 from "../../assets/images/Caroline-Bella/39.jpeg";
 import photo40 from "../../assets/images/Caroline-Bella/40.jpeg";
@@ -45,12 +41,10 @@ import photo42 from "../../assets/images/Caroline-Bella/42.jpeg";
 import photo43 from "../../assets/images/Caroline-Bella/43.jpeg";
 import photo44 from "../../assets/images/Caroline-Bella/44.jpeg";
 import photo45 from "../../assets/images/Caroline-Bella/45.jpeg";
-import photo46 from "../../assets/images/Caroline-Bella/46.jpeg";
 import photo47 from "../../assets/images/Caroline-Bella/47.jpeg";
 import photo48 from "../../assets/images/Caroline-Bella/48.jpeg";
 import photo49 from "../../assets/images/Caroline-Bella/49.jpeg";
 import photo50 from "../../assets/images/Caroline-Bella/50.jpeg";
-import photo51 from "../../assets/images/Caroline-Bella/51.jpeg";
 import photo52 from "../../assets/images/Caroline-Bella/52.jpeg";
 import photo53 from "../../assets/images/Caroline-Bella/53.jpeg";
 import photo54 from "../../assets/images/Caroline-Bella/54.jpeg";
@@ -76,7 +70,6 @@ import photo73 from "../../assets/images/Caroline-Bella/73.jpeg";
 import photo74 from "../../assets/images/Caroline-Bella/74.jpeg";
 import photo75 from "../../assets/images/Caroline-Bella/75.jpeg";
 import photo76 from "../../assets/images/Caroline-Bella/76.jpeg";
-import photo77 from "../../assets/images/Caroline-Bella/77.jpeg";
 
 function Gallery() {
   return (
@@ -88,9 +81,6 @@ function Gallery() {
             <div className="carousel-inner">
               <div className="carousel-item active">
                 <img src={photo1} className="d-block w-100" alt="Slide 1" />
-              </div>
-              <div className="carousel-item">
-                <img src={photo2} className="d-block w-100" alt="Slide 2" />
               </div>
               <div className="carousel-item">
                 <img src={photo3} className="d-block w-100" alt="Slide 3" />
@@ -153,9 +143,6 @@ function Gallery() {
                 <img src={photo22} className="d-block w-100" alt="Slide 22" />
               </div>
               <div className="carousel-item">
-                <img src={photo23} className="d-block w-100" alt="Slide 23" />
-              </div>
-              <div className="carousel-item">
                 <img src={photo24} className="d-block w-100" alt="Slide 24" />
               </div>
               <div className="carousel-item">
@@ -163,9 +150,6 @@ function Gallery() {
               </div>
               <div className="carousel-item">
                 <img src={photo26} className="d-block w-100" alt="Slide 26" />
-              </div>
-              <div className="carousel-item">
-                <img src={photo27} className="d-block w-100" alt="Slide 27" />
               </div>
               <div className="carousel-item">
                 <img src={photo28} className="d-block w-100" alt="Slide 28" />
@@ -195,9 +179,6 @@ function Gallery() {
                 <img src={photo36} className="d-block w-100" alt="Slide 36" />
               </div>
               <div className="carousel-item">
-                <img src={photo37} className="d-block w-100" alt="Slide 37" />
-              </div>
-              <div className="carousel-item">
                 <img src={photo38} className="d-block w-100" alt="Slide 38" />
               </div>
               <div className="carousel-item">
@@ -222,9 +203,6 @@ function Gallery() {
                 <img src={photo45} className="d-block w-100" alt="Slide 45" />
               </div>
               <div className="carousel-item">
-                <img src={photo46} className="d-block w-100" alt="Slide 46" />
-              </div>
-              <div className="carousel-item">
                 <img src={photo47} className="d-block w-100" alt="Slide 47" />
               </div>
               <div className="carousel-item">
@@ -236,9 +214,9 @@ function Gallery() {
               <div className="carousel-item">
                 <img src={photo50} className="d-block w-100" alt="Slide 50" />
               </div>
-              <div className="carousel-item">
+              {/* <div className="carousel-item">
                 <img src={photo51} className="d-block w-100" alt="Slide 51" />
-              </div>
+              </div> */}
               <div className="carousel-item">
                 <img src={photo52} className="d-block w-100" alt="Slide 52" />
               </div>
@@ -314,9 +292,9 @@ function Gallery() {
               <div className="carousel-item">
                 <img src={photo76} className="d-block w-100" alt="Slide 76" />
               </div>
-              <div className="carousel-item">
+              {/* <div className="carousel-item">
                 <img src={photo77} className="d-block w-100" alt="Slide 77" />
-              </div>
+              </div> */}
               {/* Add more images as needed */}
             </div>
             <button className="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
