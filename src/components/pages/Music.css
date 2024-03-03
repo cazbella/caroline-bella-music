@@ -1,9 +1,20 @@
 .musicTrack {
-    margin-bottom: 20px;
-    margin-top: 20px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+  
 }
+
+/* .musicTrack iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  } */
 
 .trackBox {
     border-radius: 1rem;
+    display: block;
+    width: 100%;
 }
 
