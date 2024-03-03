@@ -31,3 +31,18 @@
     filter: invert(100%);
   }
   
+  /* @media (max-width: 576px) {
+    .container-fluid.mb-4 {
+      width: 100%;
+      height: auto;
+    }
+  }
+
+
+  @media (max-width: 768px) {
+    .carousel-inner {
+width: 100%;
+   
+    }
+  } */
+  

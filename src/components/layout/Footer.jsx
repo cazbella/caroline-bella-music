@@ -9,8 +9,8 @@ import "./Footer.css";
 function Footer() {
   const iconStyle = {
     fontSize: '2rem',
-    margin: '0 10px',
-    color: 'black', 
+    margin: '0 5px', // Reduce margin for smaller screens
+    color: 'black',
   };
 
   // Spotify artist page link

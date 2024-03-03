@@ -57,3 +57,10 @@ content {
 footer {
   height: 100px;
 }
+
+@media (max-width: 576px) {
+  .footer .icon {
+    font-size: 1.5rem; /* Adjust the size as needed */
+    margin: 0 3px; /* Reduce margin further for smaller screens */
+  }
+}
