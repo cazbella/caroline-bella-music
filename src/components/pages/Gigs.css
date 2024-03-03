@@ -1,0 +1,10 @@
+.video-wrapper {
+    margin: 50px auto; /* Center the video horizontally and add margin top and bottom */
+    display: block; /* Ensure the wrapper takes up the full width */
+    text-align: center;
+
+  }
+  
+  .videoYoutube {
+    border-radius: 1rem;
+  }

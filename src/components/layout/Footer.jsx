@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container } from 'react-bootstrap';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faFacebook, faInstagram, faSpotify, faAmazon, faSoundcloud, faXTwitter } from "@fortawesome/free-brands-svg-icons";
+import { faFacebook, faInstagram, faSpotify, faAmazon, faSoundcloud, faXTwitter, faYoutube } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import "./Footer.css";
 
@@ -22,6 +22,9 @@ function Footer() {
         <div className="d-flex justify-content-center mb-3">
           <a href="https://www.facebook.com/CarolineBellaMusic/" target="_blank" rel="noopener noreferrer">
             <FontAwesomeIcon icon={faFacebook} className="icon" style={iconStyle} />
+          </a>
+          <a href="https://youtube.com/channel/UC5R6A1bZXoEraZ8sxJKvjpg?si=GP8jtkIRo8DfXP-V" target="_blank" rel="noopener noreferrer">
+            <FontAwesomeIcon icon={faYoutube} className="icon" style={iconStyle} />
           </a>
           <a href="https://www.instagram.com/carolinebella7music" target="_blank" rel="noopener noreferrer">
             <FontAwesomeIcon icon={faInstagram} className="icon" style={iconStyle} />
