@@ -1,5 +1,6 @@
 import React from "react";
 import "./Gigs.css";
+import Footer from "../layout/Footer";
 
 function Gigs() {
   return (

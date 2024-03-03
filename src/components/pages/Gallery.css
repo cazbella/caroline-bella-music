@@ -1,48 +1,45 @@
 .projects-container {
-    display: flex;
-    height: 100vh;
-    overflow: hidden;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-top: 20px;;
-  }
-  
+  display: flex;
+  position: relative;
+  overflow: hidden;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+
+.carousel-inner {
+  border-radius: 10px;
+  width: 100%; /* Adjust as needed */
+  text-align: center;
+}
+
+.carousel-item img {
+  max-width: 100%; /* Ensure images don't exceed carousel width */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  filter: invert(100%);
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.carousel-control-prev-icon {
+  left: 0;
+}
+
+.carousel-control-next-icon {
+  right: 0;
+}
+
+@media (min-width: 991px) {
   .carousel-inner {
-    border-radius: 10px;
-    /* width: 80%; */
-    max-width: 50%; 
-    overflow: none; 
-    text-align: center; 
+    width: 40%; /* Adjust the width as needed */
     margin-left: auto;
     margin-right: auto;
   }
-
-  @media (min-width: 768px) {
-    .carousel-inner {
-  margin-bottom: 10vh;
-  margin-top: 10vh;
-   
-    }
-  }
-  
-  .carousel-control-prev-icon,
-  .carousel-control-next-icon {
-    filter: invert(100%);
-  }
-  
-  /* @media (max-width: 576px) {
-    .container-fluid.mb-4 {
-      width: 100%;
-      height: auto;
-    }
-  }
-
-
-  @media (max-width: 768px) {
-    .carousel-inner {
-width: 100%;
-   
-    }
-  } */
-  
+}
