@@ -1,5 +1,6 @@
 .projects-container {
     display: flex;
+    height: 70%;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -8,7 +9,7 @@
   
   .carousel-inner {
     border-radius: 10px;
-    width: 50%;
+    width: 80%;
     max-width: 100%; /* Set max-width to 100% to prevent overflow */
     overflow: hidden; /* Add overflow to prevent images from overflowing */
     text-align: center; /* Center images horizontally */
