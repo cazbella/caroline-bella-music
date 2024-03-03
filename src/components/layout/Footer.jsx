@@ -38,7 +38,7 @@ function Footer() {
           <a href="https://soundcloud.com/carolinebellamusic" target="_blank" rel="noopener noreferrer">
             <FontAwesomeIcon icon={faSoundcloud} className="icon" style={iconStyle} />
           </a>
-          <a href="https://twitter.com/bridgtown_band?lang=en" target="_blank" rel="noopener noreferrer">
+          <a href="https://twitter.com/carolinebella7?s=11&t=klZ5nLjf4tCDJxnJE4123Q" target="_blank" rel="noopener noreferrer">
             <FontAwesomeIcon icon={faXTwitter} className="icon" style={iconStyle} />
           </a>
           <a href="mailto:cazbella@myyahoo.com" target="_blank" rel="noopener noreferrer">
