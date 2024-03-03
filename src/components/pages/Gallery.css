@@ -5,8 +5,8 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-top: 20px;
-  margin-bottom: 0px;
+  margin-top: 105px;
+  margin-bottom: 85px;
 }
 
 .carousel-inner {
@@ -24,8 +24,8 @@
 .carousel-control-next-icon {
   filter: invert(100%);
   position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
+  /* top: 50%;
+  transform: translateY(-50%); */
 }
 
 .carousel-control-prev-icon {
