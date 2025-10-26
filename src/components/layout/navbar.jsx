@@ -34,7 +34,7 @@ function CustomNavbar() {
           </Nav>
           <Nav>
             <NavDropdown title="Contact" id="basic-nav-dropdown">
-              <NavDropdown.Item href="mailto:cazbella@myyahoo.com">Email</NavDropdown.Item>
+              <NavDropdown.Item href="mailto:carolinelane@live.co.uk">Email</NavDropdown.Item>
               <NavDropdown.Item href="https://www.facebook.com/CarolineBellaMusic" target="_blank">Facebook</NavDropdown.Item>
             </NavDropdown>
           </Nav>

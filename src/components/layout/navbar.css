@@ -1,16 +1,15 @@
 .navbar {
-    border-radius: 1.5rem;
-    width: 100%;
+  border-radius: 1.5rem;
+  width: 100%;
 }
 
 /* Add this CSS to your Navbar.css file */
 .nav-links {
-    font-family: 'Aloja', c ; /* Specify the font family */
-    font-size: larger;
-  }
+  font-family: 'Aloja', c ; /* Specify the font family */
+  font-size: larger;
+}
 
-  #basic-nav-dropdown {
-    font-family: 'Aloja', c ; /* Specify the font family */
-    font-size: larger;
-  }
-  
+#basic-nav-dropdown {
+  font-family: 'Aloja', c ; /* Specify the font family */
+  font-size: larger;
+}
